@@ -306,7 +306,7 @@ lightBoxPreviousImage_btn.addEventListener("keydown", (e) => {
 lightBoxThumbnailImages.forEach((thumbnailImg) => {
   thumbnailImg.addEventListener("click", (e) => {
     const lightBoxThumbnail_Btn = e.target.closest("button")
-    lightBoxthumbnailNumber = lightBoxThumbnail_Btn.value
+    const lightBoxthumbnailNumber = lightBoxThumbnail_Btn.value
     lightboxActiveRemove()
     lightBoxMainImage.src = images[lightBoxthumbnailNumber]
     lightBoxThumbnail_Btn.classList.add("lightbox_thumbnail-btn--active")
