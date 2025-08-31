@@ -73,11 +73,11 @@ $bolder: 700;
 .navigation {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   //border: thin solid red;
 
   &_logo {
     max-width: 8.625rem;
-    height: 100%;
   }
   
   &_main-menu-container {
