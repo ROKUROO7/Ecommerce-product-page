@@ -59,8 +59,7 @@
 }
 .navigation_logo {
   max-width: 8.625rem;
-  min-height: -moz-fit-content;
-  min-height: fit-content;
+  height: 100%;
 }
 .navigation_main-menu-container {
   min-height: 100%;
@@ -85,7 +84,7 @@
 }
 .navigation_open-menu-btn img {
   vertical-align: middle;
-  border-radius: none;
+  border-radius: 0;
 }
 .navigation_main-menu {
   min-width: 15rem;
@@ -503,7 +502,7 @@
   font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.09375rem;
   color: hsl(219, 9%, 45%);
 }
 .product_name {
