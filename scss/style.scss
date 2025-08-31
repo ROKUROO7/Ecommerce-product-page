@@ -42,7 +42,7 @@ $bolder: 700;
   background-color: $White;
   
   @media screen and (min-width: 48rem) {
-    justify-content: center;
+    //justify-content: center;
     padding-block: 1rem;
   }
   
@@ -74,6 +74,10 @@ $bolder: 700;
   display: flex;
   justify-content: space-between;
   //border: thin solid red;
+
+  &_logo {
+    max-width: 8.625rem;
+  }
   
   &_main-menu-container {
     min-height: 100%;

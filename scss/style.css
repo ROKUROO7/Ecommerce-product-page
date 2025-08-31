@@ -23,7 +23,6 @@
 }
 @media screen and (min-width: 48rem) {
   .container {
-    justify-content: center;
     padding-block: 1rem;
   }
 }
@@ -57,6 +56,9 @@
 .navigation {
   display: flex;
   justify-content: space-between;
+}
+.navigation_logo {
+  max-width: 8.625rem;
 }
 .navigation_main-menu-container {
   min-height: 100%;
