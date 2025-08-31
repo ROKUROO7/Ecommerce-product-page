@@ -282,7 +282,7 @@ lightBoxNextImage_btn.addEventListener("click", lightBoxNextImage)
 
 lightBoxNextImage_btn.addEventListener("keydown", (e) => {
   if (e.key === "ArrowRight")
-    lightboxNextImage()
+    lightBoxNextImage()
 })
 
 // ## Lightbox Previous button logic ##

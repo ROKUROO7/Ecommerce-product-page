@@ -59,6 +59,8 @@
 }
 .navigation_logo {
   max-width: 8.625rem;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
 }
 .navigation_main-menu-container {
   min-height: 100%;
